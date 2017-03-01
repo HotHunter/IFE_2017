@@ -11,6 +11,7 @@
 	top: 0;left: 0;bottom:0; right: 0;
 	background-color: #ccc;
 	margin:auto;
+	/*overflow: hidden;*/
 }
 
 #round1{
@@ -20,6 +21,11 @@
 	background-color: yellow;
 	position: absolute;
 	left:0px;top:0px;
+
+	/*width: 100px;
+	height: 100px;
+	left: -50px;top: -50px;
+	border-radius: 0 0 50px 0;*/
 }
 
 #round2{
@@ -29,4 +35,9 @@
 	background-color: yellow;
 	position: absolute;
 	right:0px;bottom:0px;
+
+	/*width: 100px;
+	height: 100px;
+	right: -50px;bottom: -50px;
+	border-radius: 50px 0 0 0;*/		
 }
