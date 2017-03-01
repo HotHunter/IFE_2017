@@ -1,0 +1,54 @@
+* { margin:0; padding: 0;}
+
+div{
+	border: solid 1px #999;
+}
+
+#outside{
+	margin:20px auto;
+	height: auto;
+	padding: 20px;
+	position: relative;
+}
+
+#left{
+	float: left;
+	width: 200px;
+	padding:20px;
+}
+
+#left div{
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+#left div img{
+	width: 80px;
+}
+
+#left p{
+	float: right;
+}
+
+#center{
+	width: auto;
+	padding:20px;
+	position: absolute;
+	left:280px;
+	right:200px;
+}
+
+
+#right{
+	float: right;
+	width: 120px;
+	padding: 20px;
+}
+
+#people_logo {
+	padding:20px;
+}
+
+#right img{
+	width: 80px;
+}
