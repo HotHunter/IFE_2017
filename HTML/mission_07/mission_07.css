@@ -1,6 +1,6 @@
 * {margin: 0; padding:0;
 	font-family: 微软雅黑;
-
+	
 }
 
 header{
@@ -76,11 +76,13 @@ header{
 .timeOf{
 	margin-top: 5px;
 	width: 100%;
+	min-width: 976px;
 	height: 650px;
 	background-image: url(images/timeOf.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: relative;
+
 	
 }
 
@@ -118,7 +120,7 @@ header{
 
 .startHaveFun:hover{
 	background-color: #fff;
-   color: #000;
+   color: #e7504d;
 }
 
 .shadow{
@@ -199,10 +201,14 @@ header{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: relative;
+	min-width: 1280px;
 }
 
-.city .shadow{
-	background-color: #eed6d6;
+.shadow2{
+	background-color: #aa3432;
+	opacity: 0.2;
+	width: 100%;
+	height: 100%;
 }
 
 .cityTitle{
@@ -221,5 +227,487 @@ header{
 	margin: 10px auto 0 auto;
 }
 
+.cityInfo{
+	width: 100%;
+	position: absolute;
+	top:103px;left: 0;
+	text-align: center;
+	font-size: 16px;
+	color: #eeeeee;
+}
 
+.cityFormDiv {
+	position: absolute;
+	top: 50%; left: 0; right: 0;
+	margin:0 auto;
+	max-width: 1030px;
 
+}
+
+.cityFormDiv select{
+	width: 235px;
+	height: 35px;
+	margin-right: 20px;
+	float: left;
+	border:none;
+	/*清除原来样式*/
+	appearance:none;
+  	-moz-appearance:none;
+  	-webkit-appearance:none;
+  	background: url("./images/select.jpg") no-repeat scroll right center transparent;
+  	padding-right: 14px;
+  	padding-left: 14px;
+  	background-color: #fff;
+	outline:none;  
+
+}
+
+.cityFormDiv select:hover{
+	border: solid 1px #e7504d;
+}
+
+.cityFormDiv select:focus{
+	border: solid 1px #e7504d;
+
+}
+
+.cityFormDiv select option:hover{
+	background-color:  #e7504d;
+}
+
+.cityFormDiv div{
+	width: 235px;
+	height: 35px;
+	float: left;
+	background-color: #e7504d;
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*-------------*/
+
+.shanghai {
+	height: 405px;
+	width: 100%;
+	padding: 100px 0;
+	background-color: #f7f7f7;
+}
+
+.shanghai_div{
+	max-width: 995px;
+	margin:0 auto;
+}
+
+.shanghai_pic{
+	float: left;
+	margin-right: 35px;
+}
+
+.shanghai_pic img{
+	padding:10px;
+	border: solid 1px #ddd;
+	background-color: #fff;
+}
+
+.shanghai_info{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.shanghai_info span{
+	font-size: 16px;
+	color:#444;
+}
+
+.shanghai_info p{
+	font-size: 14px;
+	color: #bbb;
+}
+
+.shenzhen{
+	padding-top: 0;
+}
+
+.shenzhen span{
+	padding-left: 16px;
+	letter-spacing: 16px;
+	font-size: 24px;
+}
+
+/*--------------------*/
+
+.newWorld{
+	width: 100%;
+	height: 1130px;
+	text-align: center;
+
+}
+
+.newWorld_div{
+	width: 1290px;
+	height: 100%;
+	margin:0 auto;
+}
+
+.newWorld_pic{
+	width: 33%;
+	height: 565px;
+	float: left;
+	position: relative;
+}
+
+.double{
+	width: 66%;
+	background-image: url(./images/newworld1.jpg);
+}
+
+.lastone{
+	width: 34%;
+	position: relative;
+}
+
+.lastone2{
+	width: 34%;
+	background-image: url(./images/newworld2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.double_info{
+	width: 400px;
+	height: 310px;
+	margin-left:-200px;
+	position: absolute;
+	left: 50%;
+	top:120px;
+	color: #fff;
+}
+
+.double_info p{
+	font-size: 50px;
+}
+.double_info p:nth-child(2){
+	margin-top: -40px;
+	font-size: 160px;
+
+}
+.double_info p:nth-child(3){
+	font-size: 18px;
+
+}
+
+.lastone_info{
+	width: 290px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top:155px;
+	margin-left: -145px;
+}
+
+.lastone_info p:nth-child(1){
+	font-size: 25px;
+}
+
+.lastone_info p:nth-child(1) span{
+	font-size: 25px;
+	color: #e7504d;
+}
+
+.lastone_info p:nth-child(2){
+	font-size: 12px;
+	color: #bbb;
+	margin-top: 20px;
+	line-height: 30px;
+	text-align: left;
+}
+
+.more_button{
+	width: 105px;
+	height: 30px;
+	border: solid 1px #e7504d;
+	color: #e7504d;
+	margin: 30px auto 0 auto;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.three_rounds{
+	width: 50px;
+	margin: 40px auto 0 auto;
+}
+
+.three_rounds div:nth-child(3){
+	float: right;
+	margin: 0;
+}
+
+.round{
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	float: left;
+	border:solid 2px #bbb;
+	margin-right: 10px;
+}
+
+.selected{
+	background-color: #bbb;
+
+}
+
+.normal_info{
+	position: absolute;
+	left: 50%;
+	top:170px;
+	width: 150px;
+	height: 170px;
+	margin-left: -75px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.normal_info hr{
+	width: 40px;
+	margin: 20px auto;
+	border:none;
+	border: solid 1px #aaa;
+}
+
+.check_button{
+	width: 100%;
+	height: 40px;
+	border: solid 1px #e7504d;
+	line-height: 40px;
+	color: #e7504d;
+	cursor: pointer;
+}
+
+.newWorld_div .newWorld_pic:nth-last-child(3){
+	background-color: #e7504d;
+	color: #fff;
+
+}
+.newWorld_div .newWorld_pic:nth-last-child(3) hr{
+	border:none;
+	border: solid 1px #fff;
+
+}
+
+.newWorld_div .newWorld_pic:nth-last-child(3) .check_button{
+	border: solid 1px #fff;
+	color: #fff;
+
+}
+
+.triangle1{
+	position: absolute;
+	right: 0;
+	top:50%;
+	margin-top: -15px;
+	border-color:  transparent #fff transparent transparent ;
+	border-style: solid;
+	border-width: 20px;
+}
+
+.triangle2{
+	position: absolute;
+	left: 0;
+	top:50%;
+	margin-top: -15px;
+	border-color:  transparent  transparent transparent #fff;
+	border-style: solid;
+	border-width: 20px;
+}
+
+/*---------------------*/
+
+.volunteer{
+	width: 100%;
+	min-width: 1280px;
+	height: 620px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.volunteer hr{
+	width: 40px;
+    margin: 20px auto;
+    border: none;
+    border: solid 1px #e7504d;
+}
+
+.p1{
+	font-size: 14px;
+	color: #aaa;
+}
+
+.volu_body {
+	width: 1000px;
+	height: 300px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+.volu_body_left{
+    width: 288px;
+    margin-right: 60px;
+    float: left;
+    text-align: left;
+}
+
+.volu_body_left h5{
+	font-size: 16px;
+	margin: 0.8em 0;
+}
+
+.volu_body_left p{
+	font-size: 12px;
+	color: #aaa;
+}
+
+.volu_body_left div{
+	width: 100%;
+	text-align: right;
+	font-size: 10px;
+	background: url(./images/more.png)  no-repeat 86% 70%; 
+
+}
+
+.volu_body_right{
+	float: left;
+    text-align: left;
+    font-size: 14px;
+    width: 640px;
+}
+
+.volu_body_right ul{
+	list-style: none;
+}
+
+.volu_body_right ul li{
+	width: 312px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 1em;
+    background-color: #e3e3e5;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    float: left;
+}
+
+.volu_body_right ul li:nth-child(5){
+	height: 134px;
+    width: 98.9%;
+    text-indent: 8px;
+    padding-top: 5px;
+}
+
+.volu_body_right ul li input{
+	border: 0;
+	background-color: #e3e3e5;
+	width: 220px;
+	outline:none;  
+}
+.volu_body_right ul li textarea{
+	border: 0;
+	background-color: #e3e3e5;
+	outline:none;  
+
+}
+
+.volu_body_right ul li:nth-child(6){
+    width: 98.9%;
+    padding-top: 5px;
+}
+
+.submit_button{
+	cursor: pointer;
+    width: 98.9%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*-------------------------*/
+
+.callMeMaybe{
+	width: 100%;
+	height: 280px;
+	min-width: 1280px;
+	background-color: #32363e;
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+}
+
+.callMeMaybe p{
+	margin: 20px auto;
+}
+
+.callme_div{
+	width: 510px;
+	height: 42px;
+	margin: 0 auto;
+}
+
+.callme_div input{
+	color: #c3c2c2;
+    display: inline-block;
+    width: 420px;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+}
+
+.submit_email{
+    text-align: center;
+    width: 60px;
+    height: 44px;
+    background-color: #6f7178;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    line-height: 44px;
+}
+
+.callMeMaybe ul{
+	width: 250px;
+	margin: 27px auto 0 auto;
+	text-align: center;
+	list-style: none;
+}
+
+.callMeMaybe ul li{
+	float: left;
+	margin-right: 28px;
+}
+
+.callMeMaybe ul li:nth-child(1){
+	margin-left: 28px;
+}
+
+/*-----------------------*/
+
+footer{
+	width:100%;
+    height: 56px;
+    line-height: 56px;
+    font-size: 14px;
+    background-color: #2f3038;
+    color: #fff;
+}
+
+.left_p {
+	float: left;
+	margin-left: 30px;
+}
+
+.right_p {
+	float: right;
+	margin-right: 30px;
+}
