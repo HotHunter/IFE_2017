@@ -1,11 +1,4 @@
 
-.body{
-	border:solid 1px #999;
-	padding:10px;
-	box-sizing:border-box;
-	width: 100%;
-}
-
 .col_sm_1{
 	width: 8.333%;
 }
